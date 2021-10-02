@@ -2,6 +2,11 @@
 
 # Jay Lakhani
 
+# menu
+
+![View_menus](images/menus.png)
+![View_menu](images/menu.png)
+
 # user
 
 ![View user](images/user.png)

@@ -18,3 +18,22 @@ body
     font-family: verdana;
     font-weight: bold;
 }
+
+.site {
+    background-color: cadetblue;
+}
+
+div.col-lg-12 col-sm-12 col-md-12 col-12 ul {
+    margin:20px 0px 20px 0px;
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+    text-align:right;
+}
+div.col-lg-12 col-sm-12 col-md-12 col-12 li {
+    padding: 0px 20px 0px 0px;
+    display: inline;
+}
+div.col-lg-12 col-sm-12 col-md-12 col-12 a {
+    color:#FFFFFF;
+}

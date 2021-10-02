@@ -1,14 +1,16 @@
 <?php
 
-function followjay_menus()
+function my_custom_new_menu()
 {
-    $locations = array(
-        'primary' => "Desktop Primary Left Sidebar",
-        'footer' => "Footer Menu Items"
+    register_nav_menus(
+        array(
+            'my-custom-menu' => __('My Custom Menu'),
+            'extra-menu' => __('Extra Menu')
+        )
     );
-
-    register_nav_menus($locations);
-
 }
+add_action('init', 'my_custom_new_menu');
 
-add_action('init','followjay_menus');
+?>
+
+
